@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panadería en Línea Hanover</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg navbar-light bg-danger text-white shadow-sm">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <!-- Menú, Iniciar sesión y Registrarse a la izquierda -->
+            <nav class="nav">
+                <a class="nav-link text-white" href="Home.html">Home</a>
+                <a class="nav-link text-white" href="Productos.html">Productos</a>
+                <a class="nav-link text-white" href="quienes-somos.html">¿Quiénes somos?</a>
+                <a class="nav-link text-white" href="domicilios.html">Domicilios</a>
+            </nav>
+    
+            <!-- Logo centrado -->
+            <div class="logo-container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="Panadería Hanover" class="logo">
+                </a>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Main Banner -->
+    <section class="main-banner">
+        <img src="img/banner.png" class="img-fluid" alt="Banner principal">
+        <div class="overlay">
+            <div class="banner-content">
+                <h2>Toma algo diferente</h2>
+                <h1>HANOVER</h1>
+                <p>¡Siempre delicioso!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Botones debajo del banner -->
+        <div class="text-center my-3">
+        <button class="btn" style="background-color: #c82333; color: white; border: none; padding: 10px 20px; border-radius: 5px;" onclick="window.location.href='menu.html'">Menú</button>
+        <button class="btn" style="background-color: #c82333; color: white; border: none; padding: 10px 20px; border-radius: 5px;" onclick="window.location.href='login.html'">Iniciar sesión</button>
+        <button class="btn" style="background-color: #c82333; color: white; border: none; padding: 10px 20px; border-radius: 5px;" onclick="window.location.href='Registrarse.html'">Registrarse</button>
+        </div>
+
+    
+
+    <!-- Featured Categories -->
+    <section class="categories py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 category-item">
+                    <img src="img/category1.png" class="img-fluid" alt="Panadería">
+                    <button class="category-button" onclick="window.location.href='panaderia.html'">Panadería</button>
+                </div>
+
+                <div class="col-md-2 category-item">
+                    <img src="img/category2.jpg" class="img-fluid" alt="Bebidas">
+                    <button class="category-button" onclick="window.location.href='bebidas.html'">Bebidas</button>
+                </div>
+                <div class="col-md-2 category-item">
+                    <img src="img/category3.png" class="img-fluid" alt="Repostería">
+                    <button class="category-button" onclick="window.location.href='reposteria.html'">Repostería</button>
+                </div>
+                <div class="col-md-2 category-item">
+                    <img src="img/category4.png" class="img-fluid" alt="Desayunos">
+                    <button class="category-button" onclick="window.location.href='desayunos.html'">Desayunos</button>
+                </div>
+                <div class="col-md-2 category-item">
+                    <img src="img/category6.png" class="img-fluid" alt="Onces">
+                    <button class="category-button" onclick="window.location.href='onces.html'">Onces</button>
+                </div>
+                <div class="col-md-2 category-item">
+                    <img src="img/category5.png" class="img-fluid" alt="Calentados">
+                    <button class="category-button" onclick="window.location.href='calentados.html'">Calentados</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-light text-dark py-4 shadow-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>HANOVER</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Política de tratamiento de datos</a></li>
+                        <li><a href="#">Términos y Condiciones</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contáctanos</h5>
+                    <address>
+                        CLL 144 N° 49 - 30<br>
+                        Bogotá - Colombia<br>
+                        <abbr title="Phone">Pbx:</abbr> (60) 1 485 7770<br>
+                        <abbr title="Phone">Pbx:</abbr> (60) 1 487 7777<br>
+                        <a href="#">Sucursales</a>
+                    </address>
+                </div>
+                <div class="col-md-4">
+                    <h5>Síguenos</h5>
+                    <a href="#" class="btn btn-danger btn-sm mb-2">Suscríbete</a><br>
+                    <a href="#"><img src="img/facebook-icon.png" alt="Facebook"></a>
+                    <a href="#"><img src="img/instagram-icon.png" alt="Instagram"></a>
+                    <p>¡Siempre delicioso!</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="bg-light py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Panadería en Línea Hanover. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
